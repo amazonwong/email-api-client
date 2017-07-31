@@ -5,6 +5,7 @@ from sendgrid.helpers.mail import * # source of Email, Content, Mail, etc.
 SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 MY_EMAIL_ADDRESS = os.environ.get('MY_EMAIL_ADDRESS')
 
+
 # CONFIGURE SENDGRID SERVICE
 
 sg = sendgrid.SendGridAPIClient(apikey = SENDGRID_API_KEY)
